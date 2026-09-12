@@ -80,12 +80,15 @@ h2 {
   font-size: 15px;
 }
 .social-links a {
-  display: inline-block;
-  background-color: #4f7d8a;
-  color: #ffffff;
-  text-decoration: none;
-  padding: 10px;
-  margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.social-icon {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
 }
 footer {
   background-color: #666666;
