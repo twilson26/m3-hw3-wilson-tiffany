@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444444;
+}
+header {
+  background-color: #ffffff;
+  border-bottom: 2px solid #cccccc;
+}
+.header-content {
+  width: 960px;
+  margin: 0 auto;
+}
+header h1 {
+  float: left;
+  margin: 0;
+  padding: 20px;
+  background-color: #4f7d8a;
+  color: #ffffff;
+  font-size: 24px;
+}
+nav {
+  float: right;
+  padding-top: 25px;
+}
+nav a {
+  color: #555555;
+  text-decoration: none;
+  padding: 0 10px;
+  border-right: 1px solid #cccccc;
+}
+.header-content::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+main {
+  background-image: url("images/background.png");
+  padding: 40px 0;
+  min-height: 600px;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.about {
+  width: 650px;
+  float: left;
+  background-color: #ffffff;
+  padding: 25px;
+}
+.sidebar {
+  width: 260px;
+  float: right;
+  background-color: #ffffff;
+  padding: 25px;
+}
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h2 {
+  color: #4f7d8a;
+  border-bottom: 2px solid #dddddd;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+.profile-image {
+  width: 200px;
+  height: auto;
+  float: left;
+  margin: 0 20px 15px 0;
+}
+.about p {
+  line-height: 1.6;
+  font-size: 15px;
+}
+.social-links a {
+  display: inline-block;
+  background-color: #4f7d8a;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+}
+footer {
+  background-color: #666666;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  border-top: 5px solid #4f7d8a;
+}
+
+footer p {
+  margin: 0;
+}
